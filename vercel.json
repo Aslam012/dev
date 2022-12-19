@@ -11,9 +11,8 @@
             "src":"/(.*)",
             "dest":"/"
         },
-        {
-            "src":"/(.*)",
-            "dest":"src/users/user_list.js"
-        }
+       
+            { "src": "/(.*)", "dest": "/index.js" }
+        
     ]
 }

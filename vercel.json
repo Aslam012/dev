@@ -8,8 +8,8 @@
     ],
     "routes": [
         {
-            "source": "./src/users/user_list",
-            "destination": "/api/users/user_list"
+            "src": "./src/base_router",
+            "dest": "/api/users/user_list"
         }
-    ]
+    ] 
 }

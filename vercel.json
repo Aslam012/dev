@@ -11,8 +11,9 @@
             "src":"./src/base_router",
             "dest":"./index.js"
         }
-       
-           
-        
-    ]
+    ],
+    "rewrites":{
+        "source":"./src/users/user_list",
+        "destination":"/api/users/user_list"
+}
 }
